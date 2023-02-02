@@ -173,12 +173,34 @@ p {
 
 @media (max-width: 1028px) {
 
-    #title .container-fluid{
+     #title .container-fluid{
         text-align: center;
     }
 
     .title-image {
         position: static;
         transform: rotate(0);
+    }
+
+    .big-heading {
+        font-size: 2.3rem;
+    }
+
+    .section-heading {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    .carousel-item.container-fluid {
+        padding: 20% 15% 7%;
+    }
+
+    #pricing {
+        padding: 50px;
     }
 }
